@@ -34,7 +34,7 @@ if(isset($_GET['categories'])) {
 
     <div id="pageTitle"><?=$title_faq?></div>
 
-    <p>[<a href="<?=$PHP_SELF?>">notes</a>] [<a href="<?=$PHP_SELF?>?categories">categories</a>]</p>
+    <p>[<a href="<?=$PHP_SELF?>?notes">notes</a>] [<a href="<?=$PHP_SELF?>?categories">categories</a>]</p>
 
 <?php
 

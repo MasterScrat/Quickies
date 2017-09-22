@@ -74,7 +74,7 @@ $notes_count = Note::AllObjectsCount();
         </form>
 
         </div>      
-<?
+<?php
 
 $current_cat_id = "";
 

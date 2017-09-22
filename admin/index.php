@@ -1,4 +1,4 @@
-<?ob_start();
+<?php ob_start();
 
 header("Content-Type: text/html; charset=utf-8");
 include_once "config.inc";
@@ -36,7 +36,7 @@ if(isset($_GET['categories'])) {
 
     <p>[<a href="<?=$PHP_SELF?>">notes</a>] [<a href="<?=$PHP_SELF?>?categories">categories</a>]</p>
 
-<?
+<?php
 
 if($display_mode == 'categories') {
 
@@ -190,7 +190,7 @@ if($display_mode == 'categories') {
         </tr>
     </table>
     </form>
-    <?
+    <?php
 
     $categories = Category::allObjects();
 
@@ -304,4 +304,4 @@ if($display_mode == 'categories') {
 </body>
 </html>
 
-<?ob_end_flush();?>
+<?php ob_end_flush();?>

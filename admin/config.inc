@@ -1,4 +1,4 @@
-<?
+<?php
 
 $title_faq = "Quickies Admin";
 
